@@ -8,7 +8,7 @@ For a given natural number greater than zero return:
 */
 
 function fizzbuzz(number) {
-
+  return true;
 }
 
-module.exports = fizzbuzz
+module.exports = fizzbuzz;
