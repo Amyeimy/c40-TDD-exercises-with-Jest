@@ -1,7 +1,10 @@
 const sumWithoutHighestAndLowest = require("../src/sumWithoutHighestAndLowest.js");
 
 describe("sumWithoutHighestAndLowest", () => {
-  xit("should have a test here", () => {});
+  it("should = 5", () => {
+    expect(sumWithoutHighestAndLowest([1, 1, 11, 2, 3])).toBe(5)
+
+  });
 });
 
 // test cases

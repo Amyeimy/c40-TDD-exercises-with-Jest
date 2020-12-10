@@ -11,6 +11,17 @@
  * if a year is divisible by 400, it IS a leap year after
  * all (2000, 1600 WERE leap years.)
  */
-function leapYear() {}
+
+
+// function leapYear() {}
+
+// module.exports = leapYear;
+
+
+
+function leapYear(year)
+{
+  return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+}
 
 module.exports = leapYear;
