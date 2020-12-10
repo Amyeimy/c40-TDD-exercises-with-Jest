@@ -8,14 +8,15 @@ For a given natural number greater than zero return:
 */
 
 function fizzbuzz(number) {
-    for (let i = 1; i <= n; i++) {
+  for (let i = 1; i <= 100; i++) {
     let str = "";
 
-    if (i % 3 === 0) str += "fizz"
-    if (i % 5 === 0) str += "buzz"
+    if (i % 3 === 0) str += "fizz";
+    if (i % 5 === 0) str += "buzz";
     if (str === "") str = i;
-  
+
     console.log(str);
+  }
 }
 
 module.exports = fizzbuzz;
