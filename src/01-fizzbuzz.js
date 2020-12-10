@@ -15,7 +15,7 @@ function fizzbuzz(number) {
     if (i % 5 === 0) str += "buzz";
     if (str === "") str = i;
 
-    console.log(str);
+    return str;
   }
 }
 
