@@ -8,4 +8,12 @@ describe("fizzbuzz", () => {
   it("should return fizz when it's 3", function () {
     expect(fizzbuzz(3)).toBe("fizz");
   });
+
+  it("should return buzz when it's 5", () => {
+    expect(fizzbuzz(5)).toBe("buzz");
+  });
+
+  it("should return fizzbuzz when it's 15", () => {
+    expect(fizzbuzz(15)).toBe("fizzbuzz");
+  });
 });
