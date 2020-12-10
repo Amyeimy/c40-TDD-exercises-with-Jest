@@ -8,14 +8,14 @@ For a given natural number greater than zero return:
 */
 
 function fizzbuzz(number) {
-  for (let i = 1; i <= 100; i++) {
-    let str = "";
-
-    if (i % 3 === 0) str += "fizz";
-    if (i % 5 === 0) str += "buzz";
-    if (str === "") str = i;
-
-    return str;
+  if (number % 3 == 0 && number % 5 == 0) {
+    return "fizzbuzz";
+  } else if (number % 3 == 0) {
+    return "fizz";
+  } else if (number % 5 == 0) {
+    return "buzz";
+  } else {
+    return number;
   }
 }
 
